@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio - Dragoljub Radovic</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Dragoljub Radovic" width="100" style="border-radius: 30px;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Dragoljub Radovic">Dragoljub Radovic</h1>
+
+          <p class="title">Sr. Full-Stack Web Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">li.yingdev@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-skype"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Skype</p>
+
+              <address>live:diamondsnipper21</address>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+8613238894551" class="contact-link">+86 13238894551</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">Sep 13, 1987</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Shenyang, Liao Ning, China</address>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="card"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">ID Card</p>
+
+              <address>211321198709135173</address>
+            </div>
+
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/dragoljub-radovic-8255191a2/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/diamondsnipper21" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a passionate and results-driven web developer with <b>10+</b> years of experience in designing and developing dynamic, multiple <b>LAMP/NGINX websites</b>, <b>REST APIs</b> and <b>web applications</b>.<br/><br/>
+            I specialize in <b>front-end</b> and <b>back-end</b> technologies, including <b>PHP, MVC Frameworks, Python, SQL Programming and Javascript, Node.js, Vue.js, React.js and more</b>.
+            <br/>
+            With a strong understanding of web performance <b>optimization</b>, cross-browser compatibility, and responsive design, I am able to deliver scalable solutions that enhance user experience and meet business goals.
+            <br/>
+            I work fast, and professionally to ensure all the tasks you need get done in the manner you want it.
+            <br/>
+            My approach is to collaborate with clients and cross-functional teams to deliver innovative and practical web implementations that drive engagement and growth. <br/>
+            Whether building from scratch, maintaining existing projects, or integrating with APIs, I ensure the highest standards of <b>quality</b>, <b>security</b>, and <b>functionality</b> in every project.<br/><br/>
+
+            Thanks for your seeking.
+        </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of web sites at the <b>professional</b> level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a <b>professional</b> level.
+                </p>
+              </div>
+
+            </li>
+            
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  <b>Professional</b> development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">API development</h4>
+
+                <p class="service-item-text">
+                  I make high-quality APIs including yaml, swaggor at a <b>professional</b> level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+      <!--
+        - #Skills
+      -->
+
+      <article class="skills" data-page="skills">
+
+        <header>
+          <h2 class="h2 article-title">Skills</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="bookmark"></ion-icon>
+            </div>
+
+            <h3 class="h3">Front-end skills</h3>
+          </div>
+
+          <ol class="skill-list">
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              HTML5, CSS3, JSON, XML, SAAS, SCSS, LESS - (10+ years)
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Javascript (ES5-ES9), jQuery, AJAX - (10+ years)
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Node.js(ES5, ES6, JSX support) - (7+ years)
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Vue.js (Vue2, Vue3)/Vuex/Vuetify/VueCli, BootstrapVue, TailwindCss - (7+ years)
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              React.js - (3+ years)
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="bookmark"></ion-icon>
+            </div>
+
+            <h3 class="h3">Back-end skills</h3>
+          </div>
+
+          <ol class="skill-list">
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              PHP (v5.6, v7.2, v7.3, v8.0, v8.2, v8.3 + ) - (10+ years)
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              CakePHP (v3.x, v4.x, v5.x + ) - (9+ years)
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Laravel (v5.x, v6.x, v7.x, v10.x, v11.x + ) - (8+ years)
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Codeigniter (v2.1.4, v2.2.6, v3.1.11, v4.x +) - (7+ years)
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Symfony (v4.x, v5.x) - (3+ years)
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Yii (v2.0, v3.0) - (8+ years)
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Ruby on Rails (v5.x, v6.x) - (10+ years)
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="bookmark"></ion-icon>
+            </div>
+
+            <h3 class="h3">Database and 3rd Party API Integration, REST API skills</h3>
+          </div>
+
+
+          <ol class="skill-list">
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              MYSQL/MariaDB/SQL programming - (10+ years)
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Google API - (3+ years)
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              AWS (Amazon Web Service) API - (7+ years)
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Mailchimp API - (2+ years)
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              SMS API - (6+ years)
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              yaml, swaggor doc
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="bookmark"></ion-icon>
+            </div>
+
+            <h3 class="h3">Environments</h3>
+          </div>
+
+          <ol class="skill-list">
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Git(Github/GitLab), Bitbucket, SVN
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              AWS, DigitalOcean, CloudFlare and CPanel, CDN
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              LAMP/LEMP Stack
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Slack/Skype/Trello/JIRA/Kanban, several ticket management tools
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Linux / Ubuntu Environment
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="bookmark"></ion-icon>
+            </div>
+
+            <h3 class="h3">Others</h3>
+          </div>
+
+          <ol class="skill-list">
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Self-motivated
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Problem-solving
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Critical thinking
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Willingness to learn
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Adaptability
+
+            </li>
+
+            <li class="skill-item">
+              <ion-icon name="star"></ion-icon>&nbsp;&nbsp;
+              Good Team-Spirit
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Belgrade</h4>
+
+              <span>2006 — 2011</span>
+
+              <p class="timeline-text">
+                - Computer Software Engineering
+              </p>
+              <p class="timeline-text">
+                - BACHELOR OF COMPUTER SCIENCE
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ADMINISTRATION AND MANAGEMENT, AUTOMOBILE AND ROAD TECHNICAL INSTITUTE (STATE TECHNICAL UNIVERSITY) (MADI)</h4>
+
+              <span>2011 – 2014</span>
+
+              <p class="timeline-text">
+                - COMPUTER/INFORMATION TECHNOLOGY
+              </p>
+              <p class="timeline-text">
+                - BACHELOR OF ENGINEERING (B.ENG.)
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+
+              <h4 class="h4 timeline-item-title">Full-Stack Developer</h4>
+
+              <span>2016 — 2021</span>
+
+              <p class="timeline-text">
+                - Client: &nbsp; Andor (Amsterdam, Netherland)
+              </p>
+              <p class="timeline-text">
+                - site URL: &nbsp; apicenter.web-company.com
+              </p>
+
+              <p class="timeline-text">
+                - Required Skills: &nbsp; PHP/Codeigniter/Vue.js
+              </p>
+              
+              <br/>
+              <p class="timeline-text">
+                This is Netherlands web-company.<br/>
+                This project is a API center site for connecting different ERPs, CRMs.<br/>
+                Backend is PHP(Codeigniter) development, and frontend working is including Vue.js development.<br/>
+                I participated in modifying / developing the API connection interface and admin section of this site, as well as the development of the back-end transaction sections dealing with financial problems as a full-stack developer.<br/>
+                During 3+ years, I have developed several complicated modules(including invoice, payment, synchronization), and also acquired a lot of experiences.<br/>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+
+              <h4 class="h4 timeline-item-title">Full-Stack Web Developer</h4>
+
+              <span>2018 — 2020</span>
+
+              <p class="timeline-text">
+                - Client: &nbsp; STEPHEN CAWLEY (steve@simplyphp.com) (New York, NY)
+              </p>
+              <p class="timeline-text">
+                - site URL: &nbsp; https://kalista-beauty.com/
+              </p>
+
+              <p class="timeline-text">
+                - Required Skills: &nbsp; PHP, Laravel, Vue.js, Vuex
+              </p>
+              
+              <br/>
+              <p class="timeline-text">
+                This website is a shopping website for selling/purchasing several wonderful cosmetics such as Traveling Stylist Kit, Facial Fuel, SkinCeuticals Glycolic, Crystal Dry Oil, etc.<br/>
+                I have worked as a full-stack PHP/Laravel/Vue developer in this remote team.<br/>
+                This site is written in Laravel + Vue.js/Vuex.<br/>
+                In Backend logic, we have built some useful modules related to CouldFlare Restful API integration.<br/>
+                I participated in modifying wonderful cosmetics introduction and sales section of this site, as well as the development of the back-end development section dealing with financial problems as a full-stack developer.<br/>
+                I have fixed several bugs occurring from this site and built new features to frontend section of this site.<br/>
+                In the backend development, I also participated in revising the various payment-related sections/invoice syncronization (Invoice Export/Import). <br/>
+                This work was completed in almost five months. It was very pleasant and impressed time! <br/>
+                It was great experiences and good cooperatioin with Project Manager, Lead Developer, QA Tester, Solution Provider in this remote team. <br/>
+              </p>
+
+            </li>
+
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Full-Stack Web | API Developer</h4>
+
+              <span>2019 — Present</span>
+
+              <p class="timeline-text">
+                - Company: &nbsp; GetMyInvoices (fino data services GmbH Universitätsplatz 12 34127 Kassel Germany)
+              </p>
+              <p class="timeline-text">
+                - site URL: &nbsp; https://www.getmyinvoices.com/en/
+              </p>
+              <p class="timeline-text">
+                - Required Skills: &nbsp; PHP/Javascript/jQuery/Node.js/Cypress/Vue.js
+              </p>
+
+              <br/>
+              <p class="timeline-text">
+               GetMyInvoices is Excellent software for digital invoice processing and automatically downloads invoices from over 10,000 online portals, email inboxes, scanning apps and other sources. <br/>
+                I have been working on this company for about 5+ years, during this period, I have developed many invoice transaction pages, also developed sync APIs for importing/exporting invoices.
+                According to Manager's requirements, I have developed invoice handling pages (User-Freindly) by using PHP/Vue.js as a full-stack developer.
+                Also I have implemented many invoice transaction systems, also created some elegant frontend pages while working with experienced teammates.
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Full-Stack Developer</h4>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+                - Company: &nbsp; TOOL HOLDER SHOP Inc. (Canadian company, minority owned, located in Richmond Hill, Ontario, Canada)
+              </p>
+              <p class="timeline-text">
+                - site URL: &nbsp; toolholdershop.com
+              </p>
+              <p class="timeline-text">
+                - Required Skills: &nbsp; PHP/Laravel/Javascript/jQuery
+              </p>
+
+              <br/>
+              <p class="timeline-text">
+               This website was developed for an extensive range of business relations with machine tools manufacturers worldwide and currently are based on Laravel  Framework. <br/>
+                I have participated in this project as a full-stack Laravel developer, developed some categories/individual products pages according to requirements.<br/> 
+                Also I have designed/developed several custom tool holders for special applications.<br/>
+                All above web pages are responsive and fluent in loading in SEO view point.<br/>
+                I have maintained a responsive/fast communication and good team-cooperation-spirit with other teammates. <br/>
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Full-Stack Web Developer</h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                - Client: &nbsp; Mednoor (Ontario CA)
+              </p>
+              <p class="timeline-text">
+                - site URL: &nbsp; https://mednoor.com/
+              </p>
+              <p class="timeline-text">
+                - Required Skills: &nbsp; PHP/Laravel/Node.js/Vue.js
+              </p>
+
+              <br/>
+              <p class="timeline-text">
+               This is World-wide Medical system project for doctors and patients. <br/>
+                This has been built with Laravel (5.8) and Vue.js(2.3.4). At first, I have worked in frontend development/ module addition / bug fixes/ new design/ etc.<br/>
+                After working for some months, I have started to work in backend module for admin management system.<br/>
+                I have completed several important and complicated Frontend/Backend tasks, and developed various modules and features newly as a full-stack developer.(including web design) <br/>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>API development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>API development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot_4.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">GetMyInvoices</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot_3.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">kalista-beauty</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="api development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot_2.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">apicenter.web-company</h3>
+
+                <p class="project-category">API Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot_5.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">toolholdershop</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot_6.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">mednoor</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="api development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">API Development</p>
+
+              </a>
+            </li>
+
+            
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Feb 23, 2018</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Mar 11, 2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">May 3, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jun 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Apr 21, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
